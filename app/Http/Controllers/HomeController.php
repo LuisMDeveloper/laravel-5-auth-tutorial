@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace SchoolApp\Http\Controllers;
 
 use Gate;
-use App\Http\Requests;
+use SchoolApp\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace SchoolApp;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -29,6 +29,6 @@ class User extends Authenticatable
      */
     public function roles()
     {
-        return $this->belongsToMany('App\Role');
+        return $this->belongsToMany('SchoolApp\Role');
     }
 }
