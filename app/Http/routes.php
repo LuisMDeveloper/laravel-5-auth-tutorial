@@ -33,5 +33,6 @@ Route::group(['middleware' => ['web']], function () {
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
+    Route::resource('students', 'StudentController');
     Route::get('/home', 'HomeController@index');
 });
